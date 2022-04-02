@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Tailwind CSS</title>
-</head>
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
 
-<body></body>
+  <body>
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">Hello World. I'm <span class="text-dark block font-bold text-4xl">Ikin</span></h1>
+            <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">Lorem ipsum <span class="text-dark">dolor sit amet.</span></h2>
+            <p class="font-medium text-slate-400 mb-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span class="text-dark font-bold">Blanditiis, vitae.</span></p>
 
+            <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 sease-in-out">Hubungi Saya</a>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-0 lg:right-0">
+              <img src="dist/img//1648911122671.png" alt="Ikin" class="max-w-full mx-auto" width="300" />
+              <span class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 lg:w-1/2">
+                <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#14b8a6"
+                    d="M34.8,-45.6C43.4,-34.3,47.4,-21.7,47.3,-10.1C47.1,1.4,42.9,11.8,38.3,24.3C33.7,36.8,28.8,51.2,19.1,56.6C9.3,61.9,-5.2,58.1,-18.9,52.8C-32.5,47.4,-45.3,40.4,-53.9,29.3C-62.5,18.1,-67,2.8,-61.8,-8.2C-56.6,-19.1,-41.8,-25.6,-29.9,-36.3C-17.9,-47,-9,-61.9,2.1,-64.4C13.1,-66.8,26.2,-56.9,34.8,-45.6Z"
+                    transform="translate(100 100) scale(1)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10">
+            <h2 class="font-bold text-primary uppercase text-lg mb-3">Tentang saya</h2>
+            <h3 class="font-bold text-dark text-3xl mb-5">Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsum explicabo aut similique eligendi est. Labore saepe asperiores ipsa magnam.</p>
+          </div>
+          <div class="w-full px-4">
+            <h2>Mari berteman</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsum explicabo aut similique eligendi est. Labore saepe asperiores ipsa magnam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section End -->
+  </body>
 </html>
