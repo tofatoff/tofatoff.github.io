@@ -8,14 +8,14 @@ import Footer from '../../components/footer'
 
 const Home = () => {
   return (
-    <>
+    <div className='container mx-auto relative'>
         <Navbar />
         <Hero />
         <SoftwareEngineering />
         <Companies />
         <Credentials />
         <Footer />
-    </>
+    </div>
   )
 }
 
